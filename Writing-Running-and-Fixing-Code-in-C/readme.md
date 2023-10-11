@@ -2,9 +2,9 @@
 
 地址：[Writing, Running, and Fixing Code in C | Coursera](https://www.coursera.org/learn/writing-running-fixing-code?specialization=c-programming)
 
-#### What you'll learn
+#### 你将学到什么？
 
-以课程编程基础为基础，本课程将教你如何通过首先规划程序应该做什么来编写代码-这是新手和专业程序员的重要方法。 
+以编程基础这门课为基础，本课程将会教你怎样通过首先计划程序应做什么来编写代码——这是一个对于新手或专家程序员来说都很重要的方法。
 
 Building on the course Programming Fundamentals, this course will teach you how to write code by first planning what your program should do—an important approach for novice and professional programmers. 
 

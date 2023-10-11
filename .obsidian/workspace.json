@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Conditional-Behavior.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Conditional-Behavior.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Conditional-Behavior.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md"
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Conditional-Behavior.md"
               }
             }
           }
@@ -146,17 +146,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4b154d2b28bba2b0",
+  "active": "4447b1855200d495",
   "lastOpenFiles": [
-    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-1.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Repetitions.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Generalizing-Value.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Conditional-Behavior.md",
     "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-4.md",
+    "Writing-Running-and-Fixing-Code-in-C/readme.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-1.md",
     "README.md",
     "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/Introduction/Planning.md",
     "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4",
     "Writing-Running-and-Fixing-Code-in-C/week1/revisiting_step_2.md",
     "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/Introduction",
     "Writing-Running-and-Fixing-Code-in-C/week1/writing-code",
-    "Writing-Running-and-Fixing-Code-in-C/readme.md",
     "Writing-Running-and-Fixing-Code-in-C/wee1.md"
   ]
 }
