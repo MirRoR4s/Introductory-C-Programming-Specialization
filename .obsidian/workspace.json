@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "cd9db95158931485",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe480884dc22fa7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b154d2b28bba2b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c61065c2b72b62b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef85a11966fb8c4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4447b1855200d495",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4923d6b780378356",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91a89e0244ced06f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5669954c2e795084",
+    "type": "split",
+    "children": [
+      {
+        "id": "dde2e806ae958931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6b27ff73de07058",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a215a577b63ae79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f794dd701e15b697",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "49590e84e380a800",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4b154d2b28bba2b0",
+  "lastOpenFiles": [
+    "README.md",
+    "Writing_Running_and_Fixing_Code_in_C/wee1.md"
+  ]
+}
