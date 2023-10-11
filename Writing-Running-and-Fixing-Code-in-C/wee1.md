@@ -302,7 +302,7 @@ For some problems, some instances will be more insightful than others, and some 
 
 The most important rule in picking a particular instance of the problem is to pick one that you can work completely and precisely by hand.
 
-![image-20230928165509466](images/image-20230928165509466.png)
+![image-20230928165509466](image-20230928165509466.png)
 
 求解矩形相交问题的一个例子
 
@@ -380,7 +380,7 @@ We can still precisely work the problem from this diagram, but it is a little ha
 
 Take a second to work out the answer before you continue.
 
-![image-20230928170902497](images/image-20230928170902497.png)
+![image-20230928170902497](image-20230928170902497.png)
 
 #### Another instance of the rectangle problem, with the Cartesian grid removed
 

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md",
-                "mode": "preview",
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md",
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md",
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writing_Running_and_Fixing_Code_in_C/wee1.md"
+                "file": "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 243.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,7 +148,15 @@
   },
   "active": "4b154d2b28bba2b0",
   "lastOpenFiles": [
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-1.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4/Revisiting-Step-2.md",
     "README.md",
-    "Writing_Running_and_Fixing_Code_in_C/wee1.md"
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/Introduction/Planning.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/More-about-Steps-1-4",
+    "Writing-Running-and-Fixing-Code-in-C/week1/revisiting_step_2.md",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code/Introduction",
+    "Writing-Running-and-Fixing-Code-in-C/week1/writing-code",
+    "Writing-Running-and-Fixing-Code-in-C/readme.md",
+    "Writing-Running-and-Fixing-Code-in-C/wee1.md"
   ]
 }
