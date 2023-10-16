@@ -405,3 +405,158 @@ For Step 1, doing a few different instances of the problem is preferable to movi
 
 - 通过 git 提交和获取作业
 
+
+### Instructions for Learners Upgrading from a Previous Course Version
+
+不是从之前的版本转过来的可以直接跳过
+
+
+### Programming Assignment: Assignment 00_hello
+
+第一个编程作业，往 hello.txt 写入 hello，然后 git push，最后运行 grade 命令获取分数。
+
+- 忽略掉别人编写的作业，一股脑全部 push 就行
+
+
+### Solutions to a Few Common Problems
+
+一些常见问题的解决方案，暂时还没有遇到，先跳过。
+
+### [UNIX 基础](https://www.coursera.org/learn/writing-running-fixing-code/supplement/pAYd3/unix-basics)
+
+#### UNIX 定义
+
+问：UNIX 指的是什么？
+
+`UNIX` 是一种多用户、多任务的操作系统，非常适合用于进行编程和编程相关的任务。
+
+在过去 UNIX 指的是贝尔实验室于 20 世纪 70 年代所开发的一种特定的操作系统，但是在如今 UNIX 更多指的是一些类 UNIX 操作系统，比如 LINUX、MACOS 等。
+
+#### 命令行
+
+命令提示符默认会显示一些信息，如当前的主机名、当前的用户名、当前所在目录等。
+
+- `~` 表示用户的家目录
+
+问：为什么要显示当前的主机名？
+
+因为我们有可能同时在多台计算机上打开终端。
+
+问：为什么要显示当前的用户名？
+
+因为我们有可能在同一个系统上出于不同的目的创建不同的用户。
+
+所有程序都有一个当前目录，包括命令行shell。 All programs have a current directory, including the command shell. 
+
+当您第一次启动命令shell时，它的当前目录是您的主目录。  When you first start your command shell, its current directory is your home directory.  
+
+你可以在上图中看到，第一行的提示符是\[~\]。  You can see this in the image above, where the prompt on the first line is \[~\].
+
+在UNIX系统中，每个用户都有一个home目录，用于存储文件。  On a UNIX system, each user has a home directory, which is where they store their files. 
+
+通常，用户的家目录名与用户名匹配。  Typically the name of user’s home directory matches their user name. 
+
+在Linux系统上，它们通常在/home中(所以名为“drew”的用户的家目录是/home/drew)。  On Linux systems, they are typically found in /home (so a user named “drew” would have a home directory of /home/drew). 
+
+Mac OSX 通常把家目录放在 /Users 目录下(所以drew的家目录是/Users/drew)。  Mac OSX typically places the home directories in /Users (so “drew” would have /Users/drew). 
+
+家目录非常重要，因此它有自己的缩写，`~`。  The home directory is important enough that it has its own abbreviation, ~. 
+
+使用 ~ 本身指的是你自己的家目录。  Using ~ by itself refers to your own home directory. 
+
+紧跟用户名的 ~ 指的是该用户的家目录(例如，~fred 指的是 fred 的主目录)。Using ~ immediately followed by a user name refers to the home directory of that user (e.g., ~fred would refer to fred’s home directory).
+
+您应该了解一些与目录相关的有用命令。 There are a handful of useful directory-related commands that you should know. 
+
+第一个是 cd，代表“更改目录”。  The first is cd, which stands for “change directory.” 
+
+该命令将当前目录更改为指定为其命令行参数的另一个目录(回想一下，命令行参数写在命令行上，在命令名称之后，用空格与命令名称分隔)。  This command changes the current directory to a different directory that you specify as its command line argument (recall from earlier that command line arguments are written on the command line after the command name and are separated from it by white space). 
+
+例如，cd / 会将当前目录更改为/(文件系统的根目录)。  For example, cd / would change the current directory to / (the root of the filesystem). 
+
+请注意，如果没有空格(cd/)，命令shell将其解释为一个名为 “cd/” 的命令，并且没有参数，并给出一个错误消息，它无法找到这个命令。  Note that without the space (cd/) the command shell interprets it as a command named “cd/” with no arguments, and gives an error message that it cannot find the command. 
+
+在上图中，你可以看到 cd 命令的两种用法。  In the image above, you can see two uses of the cd command.  
+
+第一个将当前目录从 home 目录更改为 learn2prog 目录。  The first changes the current directory from the home directory to the learn2prog directory.  
+
+第二行修改了 00_hello 目录(在 learn2prog 目录中)。The second changes to the 00_hello directory (which is inside of the learn2prog directory).
+
+cd 的参数可以是你有权限访问的任何目录的路径名(相对路径或绝对路径，一般来说，你可以使用其中任何一个)。 The argument to cd can be the pathname (relative or absolute—as a general rule, you can use either) for any directory that you have permission to access. 
+
+我们稍后会更详细地讨论权限，但现在，只要知道如果你没有权限访问你请求的目录，cd 将给你一个错误消息，并且不会更改目录就足够了。We will discuss permissions in more detail shortly, but for now, it will suffice to say that if you do not have permission to access the directory that you request, cd will give you an error message and not change the directory.
+
+另一个有用的命令是 `ls`，它列出了目录的内容——其中包含哪些文件和目录。 Another useful command is ls which lists the contents of a directory—what files and directories are inside of it. 如果没有参数，ls将列出当前目录的内容。  With no arguments, ls lists the contents of the current directory. 
+
+如果指定一个或多个路径名作为参数，ls 将列出有关它们的信息。  If specify one or more path names as arguments, ls will list information about them. 
+
+对于指定目录的路径名，ls 将显示目录的内容。  For path names that specify directories, ls will display the contents of the directories. 对于指定普通文件的路径名，ls将列出有关已命名文件的信息。  For path names that specify regular files, ls will list information about the files named.  
+
+你可以在上图中看到两个 ls 的例子。  You can see two examples of ls in the image above.  
+
+第一个显示了 learn2prog 目录的内容(这里是本专门化课程2和3的所有作业)。  The first shows the contents of the learn2prog directory (here, all the assignments for Courses 2 and 3 in this Specialization).  第二个显示了00_hello目录的内容:一个README文件，其中包含作业说明，hello.txt是本次作业的交付文件，grade.txt是对作业的反馈)。
+  The second shows the contents of the 00_hello directory: a README with the instructions for the assignment, hello.txt which is the deliverable for this assignment, and grade.txt which gives feedback on your work).
+
+前面的视频展示了一个使用 `cd` 和 `ls` 命令的例子。 The previous video showed an example of using the cd and ls commands. 
+
+这个示例中的第一个命令是 cd learn2prog，它将当前目录更改为相对路径examples。  The first command in the example is cd learn2prog, which changes the current directory to the relative path examples. 
+
+然后提示符将当前目录显示为~/learn2prog。  Then the prompt showed the current directory as ~/learn2prog. 
+
+第二个命令是 `ls`，它列出了 examples 目录的内容(因为没有参数，所以 ls 列出了当前目录的内容)。  The second command is ls, which lists the contents of the examples directory (since there are no arguments, ls lists the current directory’s contents). 
+
+在这个例子中，当前目录中有一个目录(00_hello)和一个普通文件(README)。  In this example, the current directory has a directory (00_hello) and a regular file (README) in it. 
+
+大多数系统上的默认情况是 ls 将其输出的代码着色:目录以深蓝色显示，而普通文件以纯白色显示。  The default on most systems is for ls to color code its output: directories are shown in dark blue, while regular files are shown in plain white. 
+
+还有其他文件类型，它们也以不同的颜色显示。There are other file types, which are also shown in different colors.
+
+ls 命令也可以接受特殊的参数，称为“选项”。 The ls command also can take special arguments called “options”. 
+
+例如，ls 的 `-l` 选项要求 ls 打印它列出的每个文件的额外信息。  For example, for ls the -l option requests that ls print extra information about each file that it lists. 
+
+选项 `-a` 要求列出所有文件。  The -a option requests that ls list all files. 
+
+相比之下，它的默认行为是跳过文件名以开头的文件。  By contrast, its default behavior is to skip over files whose names begin with.(i.e., a dot). 
+
+虽然这种行为看起来很奇怪，但它源于 UNIX 的约定，即文件以。  While this behavior may seem odd, it arises from the UNIX convention that files are named with a .  if and only if you typically do not want to see them. 
+
+这些“点文件”的一个常见用途是用于配置文件(或目录)。  One common use of these “dot files” is for configuration files (or directories). 
+
+例如，命令shell(它解析并执行您在提示符下输入的命令)在每个用户的家目录中维护一个配置文件。  For example, a command shell (which parses and executes the commands you type at the prompt) maintains a configuration file in each user’s home directory. 
+
+对于shell bash命令，这个文件名为.bashrc。  For the command shell bash, this file is called .bashrc. 
+
+对于命令shell tsch，这个文件被称为 `.cshrc`。
+
+For the command shell tsch, this file is called .cshrc.
+
+The other common files whose names start with . are the special directory names . and .. . 
+
+In any directory, . refers to that directory itself (so cd . would do nothing—it would change to the directory you are already in). 
+
+This name can be useful when you need to explicitly specify something in the current directory (./myCommand). 
+
+The name .. refers to the parent directory of the current directory—that is, the directory that this directory is inside of. 
+
+Using cd .. takes you “one level up” in the directory hierarchy. 
+
+The exception to this is the .. in the root directory, which refers back to the root directory itself, since you cannot go “up” any higher.
+
+与许多 UNIX 命令一样，ls 命令还有许多其他选项。 The ls command has many other options, as do many UNIX commands. 
+
+随着时间的推移，您将熟悉经常使用的选项。  Over time, you will become familiar with the options that you use frequently. 
+
+然而，您可能想知道如何找到您不知道的其他选项。  However, you may wonder how you find out about other options that you do not know about. 
+
+与大多数 UNIX 命令一样，ls 也有一个手册页(如前所述)，其中描述了如何使用该命令以及它所采用的各种选项。  Like most UNIX commands, ls has a man page (as we discussed previously) which describes how to use the command, as well as the various options it takes. 
+
+你可以在命令提示符下输入 `man ls` 来阅读这个手册页。You can read this manual page by typing man ls at the command prompt.
+
+另外两个与目录相关的有用命令是 mkdir 和 rmdir。 Two other useful directory-related commands are mkdir and rmdir. 
+
+mkdir 命令接受一个参数，并通过指定的名称创建一个目录。  The mkdir command takes one argument and creates a directory by the specified name. 
+
+rmdir 命令接受一个参数并移除(删除)指定的目录。  The rmdir command takes one argument and removes (deletes) the specified directory. 
+
+使用 rmdir 删除一个目录，该目录必须是空的(不能包含任何文件或目录，除了)。  To delete a directory using rmdir, the directory must be empty (it must contain no files or directories, except for . and .. which cannot be deleted).
