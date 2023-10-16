@@ -396,3 +396,12 @@ In general, it is better to spend extra time in an earlier step of programming t
 
 For Step 1, doing a few different instances of the problem is preferable to moving into Step 2 and only being able to come up with "I just did it—it was obvious."
 
+
+## 工具
+
+### 编程环境介绍
+
+课程提供了在线的编程环境，无需在自己的电脑上下载和安装编程环境。
+
+- 通过 git 提交和获取作业
+

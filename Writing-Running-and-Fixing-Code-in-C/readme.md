@@ -4,7 +4,7 @@
 
 #### 你将学到什么？
 
-以编程基础这门课为基础，本课程将会教你怎样通过首先计划程序应做什么来编写代码——这是一个对于新手或专家程序员来说都很重要的方法。
+以`编程基础`这门课为基础，本课程将会教你在开始编写代码前首先计划程序应做的事情来进行编程——这是一个对于新手或专家程序员来说都很重要的方法。
 
 Building on the course Programming Fundamentals, this course will teach you how to write code by first planning what your program should do—an important approach for novice and professional programmers. 
 
