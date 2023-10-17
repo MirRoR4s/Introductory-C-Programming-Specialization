@@ -1,6 +1,6 @@
 # Writing Code
 
-在本模块中，你将学习编写代码，并在实践编程环境中完成你的第一次作业。 
+在本模块中，你将学习编写代码，并在实践编程环境中完成你的第一次作业。
 
 In this module, you will learn to write code and do your first assignment in the Practice Programming Environment. 
 
@@ -134,13 +134,13 @@ Would you hire a professional videographer who just used a cell phone?
 
 ---
 
-我会有点怀疑。 
+我会有点怀疑。
 
-I'd be a little bit skeptical. 
+I'd be a little bit skeptical.
 
 编程也是如此。  
 
-The same thing happens with programming. 
+The same thing happens with programming.
 
 我的一些学生告诉我，他们很高兴学会了这些工具。  
 
@@ -310,7 +310,7 @@ The most important rule in picking a particular instance of the problem is to pi
 
 ---
 
-上图显示了步骤1矩形相交问题的结果。 
+上图显示了步骤 1 矩形相交问题的结果。 
 
 The figure above shows the results of Step 1 for the rectangle intersection problem.  
 
